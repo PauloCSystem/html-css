@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Trabalhando com Links/Âncora</title>
+</head>
+<style>
+    *{
+        margin: 0;
+        padding: 0;
+        outline: 0;
+        box-sizing: border-box;
+    }
+    html body{
+        
+         text-align: center;
+    }
+    h1{
+        color: rgb(57, 57, 226);
+    }
+    li, a{
+        list-style: none;
+    }
+    header{
+        width: 100%;
+        height: 70px;
+        background-color: #1c0b09;
+        display: block;
+        padding-top: 14px;
+    }
+    H1{
+        text-shadow: 1px 1px rgb(114, 178, 231);
+    }
+    
+    h2{
+        margin-top: 30px;
+    }
+    
+</style>
+<header>
+    <h1>Links Externos, Internos e Download</h1>
+</header>
+<body>
+    <h2>Usando Links Externos</h2>
+    <br>
+    <p>Você pode acessar o meu <a href="https://gustavoguanabara.GitHub.io/" target="_blank" rel="external">repositório publico no GitHub</a>.</p>
+    <br>
+    <p>Você também pode acessar o meu <a href="http://youtube.com/cursoemvideo/" target="_blank" rel="external">canal gratuito no youtube</a>.</p>
+    <br>
+    <hr color="red">
+    <H2>Usando links internos</H2>
+    <br>
+    <p>Esta é a primeira pagina do site. Se você quiser, pode acessar também a minha <a href="pag002.html" rel="next">Segunda Página.</a></p>
+     <br>
+    <p>Você também pode acessar nossa <a href="noticia/pag003.html" rel="next">pagina de noticia.</a></p>
+    <br>
+    <hr color="red">
+    
+    <h2>Usando Links para Download</h2>
+    <ul>
+        <br>
+        <li><a href="projeto/projeto-barracao.pdf">Baixar Projeto Barracão em PDF</a></li>  <a>Esse Link, primeiro abre o projeto para depois você fazer o Download.</a>
+        <br><br>
+        <li><a href="projeto/projeto-barracao.pdf" download="projeto-barracao.pdf" type= aplication/pdf>Download Projeto Barracão PDF.</a></li>  <a>Esse Link já faz o Download direto sem abrir o projeto.</a>
+        <br><br>
+        <li><a href="tabela-maquina-miyota.xlsx">Tabela Máquina Miyota Arquivo Exel</a></li>
+    </ul>
+
+
+</body>
+</html>
